@@ -1,0 +1,152 @@
+{
+    "customers": [
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Sthefany Duarte Franco",
+            "civilState": "solteiro",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+            "document": [],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Rafael Ribeiro da Silva",
+            "civilState": "solteiro",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+            "document": [],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Maria Aparecida da Silva",
+            "civilState": "solteiro",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+            "document": [],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Thiago Melo da Silva",
+            "civilState": "solteiro",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+            "document": [],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Thiago Melo da Silva",
+            "civilState": "solteiro",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+            "document": [],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Thiago Melo da Silva",
+            "civilState": "solteiro",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+            "document": [],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Gustavo Silva da Silva",
+            "civilState": "Casado",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+            "document": [],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Lucas Diogo da Silva",
+            "civilState": "solteiro",
+            "phoneNumber": "5511123416",
+            "profession": "ëstudante",
+            "id": "0259e3c5-4ad9-42ff-b1b6-5b881d03767b",
+            "document": [
+                {
+                    "code": "12790711221",
+                    "type": "CPF",
+                    "cityOfEmission": null,
+                    "emissionDate": null,
+                    "expirationDate": null
+                },
+                {
+                    "code": "987651321",
+                    "type": "RG",
+                    "cityOfEmission": null,
+                    "emissionDate": null,
+                    "expirationDate": null
+                }
+            ],
+            "customerAddress": {
+                "city": "Itapuranga",
+                "uf": "GO"
+            }
+        },
+        {
+            "birthday": "02/08/2002 10:30:00",
+            "name": "Bhruninho Gamepenis",
+            "civilState": "Casado",
+            "phoneNumber": "5511123416",
+            "profession": "Estudante",
+            "id": "e0eb3b5b-3511-4c40-b732-6a230ff33627",
+            "document": [
+                {
+                    "code": "53746912",
+                    "type": "CPF",
+                    "cityOfEmission": null,
+                    "emissionDate": null,
+                    "expirationDate": null
+                },
+                {
+                    "code": "9847183462",
+                    "type": "RG",
+                    "cityOfEmission": null,
+                    "emissionDate": null,
+                    "expirationDate": null
+                }
+            ],
+            "customerAddress": {
+                "city": "Santa Cruz",
+                "uf": "RS"
+            }
+        }
+    ],
+    "role": "admin"
+}

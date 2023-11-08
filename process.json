@@ -1,0 +1,58 @@
+{
+    "customer": {
+        "id": "e0eb3b5b-3511-4c40-b732-6a230ff33627",
+        "name": "Sthefany Duarte Franco",
+        "phoneNumber": "5511123416",
+        "email": "bhruno@gmail.com",
+        "birthday": "02/08/2002 10:30:00",
+        "civilState": "Casado",
+        "profession": "Estudante",
+        "motherName": "Maju Soares",
+        "nationality": "brasileira",
+        "officeId": "0ec06ed2-3358-4dfa-a9bb-45a8c8f9cac3",
+        "customerAddress": {
+            "id": 3,
+            "city": "Santa Cruz",
+            "uf": "RS",
+            "houseNumber": 180,
+            "street": "Avenida Tiaraju",
+            "zipCode": "08655451",
+            "district": "Vila Helena",
+            "customerId": "e0eb3b5b-3511-4c40-b732-6a230ff33627"
+        },
+        "document": [
+            {
+                "id": "63f9f59c-7b8e-4ade-bc1b-1b89cbf16c8c",
+                "code": "53746912",
+                "type": "CPF",
+                "expirationDate": null,
+                "emissionDate": null,
+                "cityOfEmission": null,
+                "lawyerId": null,
+                "customerId": "e0eb3b5b-3511-4c40-b732-6a230ff33627"
+            },
+            {
+                "id": "5e0cc543-8ebd-4ed9-aec9-6a667ca2db0e",
+                "code": "9847183462",
+                "type": "RG",
+                "expirationDate": null,
+                "emissionDate": null,
+                "cityOfEmission": null,
+                "lawyerId": null,
+                "customerId": "e0eb3b5b-3511-4c40-b732-6a230ff33627"
+            }
+        ],
+        "myInss": null,
+        "process": [
+            {
+                "id": "d3320d06-cb72-40a0-900b-833fb28d0802",
+                "startDate": "2023-09-12T15:32:48.689Z",
+                "endDate": null,
+                "name": "Processo de Aposentadoria",
+                "customerId": "9846230a-a0f3-42b2-a178-bb8db4e37da7",
+                "statusId": 1
+            }
+        ]
+    },
+    "role": "admin"
+}
