@@ -3,7 +3,7 @@ import { LoginForm } from "@/components/Forms/LoginForm";
 export default function Home() {
   return (
     <div className="w-screen h-screen flex justify-center items-center bg-bgColor">
-      <div className="w-box h-1/2 p-6 flex flex-col shadow-lg rounded-md justify-around bg-white">
+      <div className="w-box  p-6 flex flex-col shadow-lg rounded-md justify-around bg-white">
         <div className="flex items-center justify-center pb-12 text-center flex-col ">
           <div className="w-full h-full  ">
             <span className="font-semibold text-xl text-black">
