@@ -21,7 +21,7 @@ export default function Processos() {
         <div className="h-full px-10 md:px-64 mt-20">
           <CustomerCard navigate={navigate} data={data} />
         </div>
-        <div className="w-full bg-blue-300 h-full grid grid-cols-4 px-36 py-24">
+        <div className="w-full h-full grid grid-cols-4 px-36 py-24">
           {data.customer.process.map((e, key) => {
             return <ProcessComponent process={e} key={key} />;
           })}
