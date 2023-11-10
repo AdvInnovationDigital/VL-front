@@ -16,7 +16,7 @@ const SideBar = () => {
 
       <div className="bg-gray-300 h-divider w-full" />
 
-      <div className="flex flex-col  w-full items-center ">
+      <div className="flex flex-col  w-full items-center gap-4 ">
         <div className="flex flex-col gap-4">
           <div className="flex-row cursor-pointer flex justify-center items-center">
             <div className="w-8">
@@ -27,6 +27,17 @@ const SideBar = () => {
               className={`px-4 py-2 group-hover:block hidden`}
             >
               Clientes
+            </Link>
+          </div>
+          <div className="flex-row cursor-pointer flex justify-center items-center">
+            <div className="w-8">
+              <Image src={People} alt="" />
+            </div>
+            <Link
+              href={"/clientes"}
+              className={`px-4 py-2 group-hover:block hidden`}
+            >
+              Visual Docs
             </Link>
           </div>
         </div>

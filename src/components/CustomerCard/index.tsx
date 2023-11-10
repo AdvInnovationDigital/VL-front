@@ -13,13 +13,13 @@ const CustomerCard = ({
   data: any;
   navigate: NextRouter;
 }) => {
-  const { name } = data.customer;
+  const { name, customerAddress, document } = data.customer;
 
   const [fName, sName] = name.split(" ");
 
   return (
-    <div className=" w-full  bg-white rounded-lg shadow-md flex flex-col transition-all duration-200">
-      <div className=" flex ">
+    <div className=" w-full  bg-white rounded-lg shadow-md flex flex-row justify-around transition-all duration-200">
+      <div className=" flex flex-col p-10">
         <div className="flex justify-center text-center w-full pt-10">
           <div
             className={"p-8 rounded-full"}
@@ -36,7 +36,23 @@ const CustomerCard = ({
         </div>
       </div>
 
-      <div className="flex flex-col h-full p-2 lg:p-6 justify-center items-center"></div>
+      <div className="flex flex-col h-full p-2 lg:p-6 w-full justify-center items-center bg-blue-300">
+        <div className={"p-8 "}>
+          <span className="text-center text-black text-xl">
+            {customerAddress.uf}
+          </span>
+          <span className="text-center text-black text-xl">
+            {customerAddress.city}
+          </span>
+          <span className="text-center text-black text-xl">
+            {customerAddress.houseNumber}
+          </span>
+          <span className="text-center text-black text-xl">
+            {customerAddress.street}
+          </span>
+        </div>
+        <div className={"p-8 "}></div>
+      </div>
     </div>
   );
 };
