@@ -1,7 +1,7 @@
 {
     "customer": {
         "id": 1,
-        "name": "Bhruninho Gamepenis",
+        "name": "Maicon Bernardino da Silveira",
         "phoneNumber": "5511123416",
         "email": "bhruno@gmail.com",
         "birthday": "02/08/2002 10:30:00",
@@ -61,7 +61,59 @@
                 "id": 4,
                 "startDate": "2023-09-12T15:32:48.689Z",
                 "endDate": null,
-                "name": "Processo de Aposentadoria",
+                "name": "Processo de Arrecadar INSS",
+                "customerId": 1,
+                "statusId": 1,
+                "status": {
+                    "id": 1,
+                    "name": "Em andamento"
+                },
+                "docsCount": 0
+            },
+            {
+                "id": 4,
+                "startDate": "2023-09-12T15:32:48.689Z",
+                "endDate": null,
+                "name": "Processo de Amar INS",
+                "customerId": 1,
+                "statusId": 1,
+                "status": {
+                    "id": 1,
+                    "name": "Em andamento"
+                },
+                "docsCount": 0
+            },
+            {
+                "id": 4,
+                "startDate": "2023-09-12T15:32:48.689Z",
+                "endDate": null,
+                "name": "Processo de Arrecadar INSS",
+                "customerId": 1,
+                "statusId": 1,
+                "status": {
+                    "id": 1,
+                    "name": "Em andamento"
+                },
+                "docsCount": 0
+            },
+            {
+                "id": 4,
+                "startDate": "2023-09-12T15:32:48.689Z",
+                "endDate": null,
+                "name": "Processo de Arrecadar INSS",
+                "customerId": 1,
+                "statusId": 1,
+                "status": {
+                    "id": 1,
+                    "name": "Em andamento"
+                },
+                "docsCount": 0
+            },
+            {
+                "id": 4,
+                "startDate": "2023-09-12T15:32:48.689Z",
+                "endDate": null,
+                "name": "Processo de Arrecadar INSS",
                 "customerId": 1,
                 "statusId": 1,
                 "status": {
