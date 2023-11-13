@@ -1,17 +1,28 @@
 const ProcessComponent = ({ process }: { process: any }) => {
+  const date = new Date(process.startDate);
   return (
-    <div className="w-56 py-10 bg-white rounded-md shadow-lg flex flex-col">
-      <span>{process.name} </span>
-      <span>{process.startDate} </span>
-      <span>{process.endDate} </span>
+    <div className="w-64 pt-10 pb-6 bg-white rounded-md shadow-md flex flex-col">
+      <span className="font-semibold text-center">{process.name} </span>
+      {/* <span>
+        {date.getDate() +
+          "/" +
+          JSON.stringify(date.getMonth() + 1).padStart(2, "0") +
+          "/" +
+          date.getFullYear()}
+      </span> */}
+      {/* <span>{process.endDate} </span>
       <div>
         <span>N de documentos nesse processo: {process.docsCount}</span>
-      </div>
-      <div>
+      </div> */}
+      <div className="flex items-center justify-center gap-2 ">
+        <div
+          className="w-2 h-2 rounded-full"
+          style={{ backgroundColor: "limegreen" }}
+        ></div>
         <span>{process.status.name}</span>
       </div>
 
-      <div>
+      <div className="flex justify-center items-center mt-2 cursor-pointer">
         <span>Visualizar documentos</span>
       </div>
     </div>
