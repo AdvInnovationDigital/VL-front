@@ -18,7 +18,7 @@ const NavBar = () => {
         </div>
       ) : (
         <div className="flex justify-center items-center h-full cursor-pointer">
-          Entrar
+          <Link href={"/login"}>Entrar</Link>
         </div>
       )}
     </div>
