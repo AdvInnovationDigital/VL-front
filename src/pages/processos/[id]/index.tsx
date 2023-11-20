@@ -15,7 +15,7 @@ export default function Processos() {
       <NavBar />
 
       <div className="flex flex-col ">
-        <div className="h-full px-10 md:px-64 mt-20">
+        <div className="h-full px-10 md:px-64 mt-20 w-auto">
           <CustomerCard navigate={navigate} data={data} />
         </div>
         <div className="w-full h-full grid md:grid-cols-2 md:px-40 lg:grid-cols-4 lg:py-24 gap-4">

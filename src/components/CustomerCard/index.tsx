@@ -18,9 +18,9 @@ const CustomerCard = ({
   const [fName, sName] = name.split(" ");
 
   return (
-    <div className=" w-full  bg-white rounded-lg shadow-md flex flex-row justify-around transition-all duration-200">
+    <div className="  bg-white rounded-lg shadow-md flex flex-row justify-around transition-all duration-200">
       <div className=" flex flex-col p-10">
-        <div className="flex justify-center text-center w-full pt-10">
+        <div className="flex justify-center text-center pt-10">
           <div
             className={"p-8 rounded-full"}
             style={{ backgroundColor: stringToColor(name) }}
@@ -36,7 +36,7 @@ const CustomerCard = ({
         </div>
       </div>
 
-      <div className="flex flex-col h-full p-2 lg:p-6 w-full justify-center items-center bg-blue-300">
+      {/* <div className="flex flex-col h-full p-2 lg:p-6 w-full justify-center items-center bg-blue-300">
         <div className={"p-8 "}>
           <span className="text-center text-black text-xl">
             {customerAddress.uf}
@@ -52,7 +52,7 @@ const CustomerCard = ({
           </span>
         </div>
         <div className={"p-8 "}></div>
-      </div>
+      </div> */}
     </div>
   );
 };

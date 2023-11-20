@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center bg-bgColor">
+    <div className="w-screen h-screen flex justify-center items-center bg-blue-300">
       <div className="w-box  p-6 flex flex-col shadow-lg rounded-md justify-around bg-white">
         <div className="flex items-center justify-center pb-12 text-center flex-col ">
           <div className="w-full h-full  flex justify-center">
