@@ -1,23 +1,39 @@
 import { PrimaryButton } from "@/components/Button";
-import { NavBar } from "@/components/Navbar";
-import { SideBar } from "@/components/SideBar";
+import Eye from "../../../../public/eye.svg";
 import { TextInput } from "@/components/Textfield";
 import Link from "next/link";
+import { useState } from "react";
 
 const LoginForm = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [visible, setVisible] = useState("password");
+
   return (
     <>
       <TextInput
-        onChangeValue={(e) => {}}
+        onChangeValue={(e: any) => {
+          setEmail(e.target.value);
+        }}
         placeholder="Email"
         type="email"
-        value=""
+        value={email}
       />
       <TextInput
-        onChangeValue={(e) => {}}
+        onChangeValue={(e: any) => {
+          setPassword(e.target.value);
+        }}
         placeholder="Senha"
-        type="password"
-        value=""
+        type={visible}
+        value={password}
+        iconSrc={Eye}
+        onIconClick={(e) => {
+          if (visible == "password") {
+            setVisible("text");
+          } else {
+            setVisible("password");
+          }
+        }}
       />
 
       <div className="flex items-center flex-col gap-2">
