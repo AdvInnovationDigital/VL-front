@@ -9,13 +9,16 @@ import Draggable from "react-draggable";
 import { createEditor } from "slate";
 import { Slate, Editable, withReact } from "slate-react";
 
-const EditableText = ({}: // text,
-// pos,
-// style,
-{
-  // text: any;
-  // pos: any;
-  // style: any;
+const EditableText = ({
+  text,
+  pos,
+  style,
+  disabledDrag,
+}: {
+  text?: any;
+  pos?: any;
+  style?: any;
+  disabledDrag?: any;
 }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [editable, setEditable] = useState(false);
@@ -23,7 +26,7 @@ const EditableText = ({}: // text,
   const [value, setValue] = useState([
     {
       type: "paragraph",
-      children: [{ text: "Insira seu Texto" }],
+      children: [{ text: text ? text : "Insira seu Texto" }],
     },
   ]);
 
@@ -49,17 +52,14 @@ const EditableText = ({}: // text,
   }, []);
 
   return (
-    <Draggable onDrag={handleDrag} bounds={"parent"}>
+    <Draggable onDrag={handleDrag} disabled={disabledDrag} bounds={"parent"}>
       <div
         style={{
-          position: "relative",
+          position: "absolute",
           top: position.y,
           left: position.x,
-          backgroundColor: "#8900000",
-          color: "#000000F",
-          padding: "30px",
-          resize: "both",
         }}
+        className="absolute bg-transparent"
         onClick={() => {
           setEditable(true);
         }}
