@@ -4,7 +4,8 @@ import { SideBar } from "@/components/SideBar";
 import data from "../../../../../process.json";
 import { useRouter } from "next/router";
 import { CustomerCard } from "@/components/CustomerCard";
-import { ProcessComponent } from "@/components/ProcessComponent";
+import Image from "next/image";
+import AddDoc from "@/../public/add-doc.svg";
 
 export default function Processos() {
   const navigate = useRouter();
@@ -23,6 +24,19 @@ export default function Processos() {
             return <ProcessComponent process={e} key={key} />;
           })} */}
           NOT YET IMPLEMENTED
+        </div>
+      </div>
+
+      <div className="flex fixed justify-end left-0 bottom-0 right-0 z-[0]">
+        <div className="align-center justify-center flex mr-24 mb-24">
+          <button
+            className="bg-blue-300 p-4 rounded-full hover:bg-blue-400 transition-all duration-200 ease-in-out"
+            onClick={() => {
+              navigate.push("/visual-law/teste");
+            }}
+          >
+            <Image src={AddDoc} alt={""} className="w-7" />
+          </button>
         </div>
       </div>
     </div>

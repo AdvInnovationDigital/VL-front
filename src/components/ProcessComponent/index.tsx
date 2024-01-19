@@ -1,5 +1,15 @@
+import Link from "next/link";
+import { useRouter } from "next/router";
+
 const ProcessComponent = ({ process }: { process: any }) => {
   const date = new Date(process.startDate);
+  const router = useRouter();
+
+  const handleNavigate = (e: any) => {
+    console.log(router.route);
+    router.push(`/processos/${process.id}/documentos`);
+  };
+
   return (
     <div className="w-64 pt-10 pb-6 bg-white rounded-md shadow-md flex flex-col">
       <span className="font-semibold text-center">{process.name} </span>
@@ -22,8 +32,10 @@ const ProcessComponent = ({ process }: { process: any }) => {
         <span>{process.status.name}</span>
       </div>
 
-      <div className="flex justify-center items-center mt-2 cursor-pointer">
-        <span>Visualizar documentos</span>
+      <div className="flex justify-center items-center mt-2 ">
+        <a href="#" onClick={handleNavigate} className="cursor-pointer">
+          <span>Visualizar Visual Docs</span>
+        </a>
       </div>
     </div>
   );

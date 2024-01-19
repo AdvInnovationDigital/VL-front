@@ -11,15 +11,15 @@ export default function Home() {
             </span>
           </div>
           <span className="text-black pt-12 font-regular">
-            Entre agora e comece a fazer os seus documentos em Visual Law!
+            Se registre agora e comece a fazer os seus documentos em Visual Law!
           </span>
           <span className="text-black pt-6 font-thin">
-            Entre com seu email e senha.
+            Insira todas as informações necessárias
           </span>
         </div>
 
-        <div className="flex justify-center items-center">
-          <div className="flex flex-col gap-8 w-full px-16 ">
+        <div className="flex justify-center items-center ">
+          <div className="flex flex-col gap-8 w-full px-16  ">
             <LawyerRegisterForm />
           </div>
         </div>
