@@ -1,0 +1,76 @@
+{
+    "customer": {
+        "id": 1,
+        "name": "Bhruninho Gamepenis",
+        "phoneNumber": "5511123416",
+        "email": "bhruno@gmail.com",
+        "birthday": "02/08/2002 10:30:00",
+        "civilState": "Casado",
+        "profession": "Estudante",
+        "motherName": "Maju Soares",
+        "nationality": "brasileira",
+        "officeId": 1,
+        "customerAddress": {
+            "id": 1,
+            "city": "Santa Cruz",
+            "uf": "RS",
+            "houseNumber": 180,
+            "street": "Avenida Tiaraju",
+            "zipCode": "08655451",
+            "district": "Vila Helena",
+            "customerId": 1
+        },
+        "document": [
+            {
+                "id": 2,
+                "code": "53746912",
+                "type": "CPF",
+                "expirationDate": null,
+                "emissionDate": null,
+                "cityOfEmission": null,
+                "lawyerId": null,
+                "customerId": 1
+            },
+            {
+                "id": 3,
+                "code": "9847183462",
+                "type": "RG",
+                "expirationDate": null,
+                "emissionDate": null,
+                "cityOfEmission": null,
+                "lawyerId": null,
+                "customerId": 1
+            }
+        ],
+        "myInss": null,
+        "process": [
+            {
+                "id": 3,
+                "startDate": "2023-09-12T15:32:48.689Z",
+                "endDate": null,
+                "name": "Processo de Aposentadoria",
+                "customerId": 1,
+                "statusId": 1,
+                "status": {
+                    "id": 1,
+                    "name": "Em andamento"
+                },
+                "docsCount": 1
+            },
+            {
+                "id": 4,
+                "startDate": "2023-09-12T15:32:48.689Z",
+                "endDate": null,
+                "name": "Processo de Aposentadoria",
+                "customerId": 1,
+                "statusId": 1,
+                "status": {
+                    "id": 1,
+                    "name": "Em andamento"
+                },
+                "docsCount": 0
+            }
+        ]
+    },
+    "role": "admin"
+}
